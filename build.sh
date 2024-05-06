@@ -14,7 +14,7 @@ RELEASE="$(rpm -E %fedora)"
 
 # this installs a package from fedora repos
 rpm-ostree install mpv yt-dlp
-rpm-ostree uninstall sddm-kcm sddm kde-settings-sddm
+rpm-ostree uninstall sddm-kcm sddm kde-settings-sddm sddm-breeze
 sudo systemctl set-default multi-user.target
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
