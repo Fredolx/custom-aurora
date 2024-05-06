@@ -19,6 +19,6 @@ plasma-browser-integration fedora-chromium-config-kde mariadb-server mariadb-ser
 mariadb-common mariadb-errmsg mariadb mariadb-connector-c qt6-qtbase-mysql perl-DBD-MariaDB mariadb-connector-c-config \
 rocm-comgr rocm-runtime rocminfo rocm-device-libs rocm-hip rocm-opencl hipcc plymouth plymouth-core-libs plymouth-graphics-libs plymouth-plugin-label \
 plymouth-plugin-two-step plymouth-scripts plymouth-system-theme plymouth-theme-spinner wireguard-tools firewalld firewalld-filesystem firewall-config \
-python3-firewall python3-nftables 
+python3-firewall python3-nftables toolbox
  
 sudo systemctl set-default multi-user.target
